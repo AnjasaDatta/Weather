@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.cold {
+  background-image: url('https://ak.picdn.net/shutterstock/videos/1012306247/thumb/5.jpg');
+  background-size: cover;
+  width: 100%;
+}
+
+.warm {
+  background-image: url('https://i.dailymail.co.uk/1s/2018/11/05/01/5769996-0-image-a-31_1541380925793.jpg');
+  background-size: cover;
+  width: 100%;
+}
+.search {
+  width: 100%;
+  font-size: 40px;
+  border-radius: 0px 0px 10px 10px;
+  margin-top: -25px;
+
+  display: block;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.City {
+  color: rgb(0, 51, 153);
+  text-shadow: rgba(255, 255, 255, 0.5);
+  font-size: 40px;
+}
+.date {
+  color: rgb(0, 51, 153);
+  font-size: 30px;
+  font-style: italic;
+  text-shadow: rgba(255, 255, 255, 0.5);
+}
+.temp {
+  padding: 15px 25px;
+  position: relative;
+  font-size: 90px;
+  font-weight: 900;
+  text-shadow: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 30px auto;
+  display: inline-block;
+  border-radius: 16px;
+}
+main {
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.75)
+  );
+  padding: 25px;
+}
+.submit {
+  margin-top: 20px;
+  font-size: 40px;
+  border-radius: 0px 0px 10px 10px;
+  margin-top: -25px;
+
+  display: block;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
